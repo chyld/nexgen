@@ -9,6 +9,7 @@ USER mars
 COPY .bash_profile /home/mars
 COPY .bash_aliases /home/mars
 
+ENV TERM xterm
 ENV SHELL /bin/bash
 ENV DBHOST db
 ENV DBNAME dev-db
