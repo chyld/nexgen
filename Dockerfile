@@ -2,7 +2,7 @@ FROM node
 
 RUN apt-get update && apt-get install -y htop vim
 RUN useradd -m -d /home/mars -s /bin/bash mars
-RUN npm install -g bower pm2
+RUN npm install -g pm2
 
 USER mars
 
